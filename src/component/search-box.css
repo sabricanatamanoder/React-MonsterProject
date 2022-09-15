@@ -1,0 +1,13 @@
+.search-box {
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Search box'a tıklayıp bir şeyler yazdığında placeholder'daki
+  yazıyı otomatik olarak kaldırır ve sağda bir x işareti oluşturur. */
+  .search-box:focus {
+    outline: none;
+  }

@@ -1,0 +1,7 @@
+.card-list {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Her satırda üç tane olsun ve otomatik şekilde boyutlansın */
+    gap: 20px;
+    margin: 20px auto;
+    width: 85vw;
+  }
